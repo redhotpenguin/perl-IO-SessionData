@@ -1,0 +1,8 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/SessionData.t
+t/SessionSet.t
+lib/IO/SessionData.pm
+lib/IO/SessionSet.pm
