@@ -10,5 +10,10 @@ WriteMakefile(
     VERSION_FROM  => 'lib/IO/SessionData.pm',
     PREREQ_PM     => {},
     ABSTRACT      => 'supporting module for SOAP::Lite',
-    AUTHOR        => 'Fred Moyer <fred@redhotpenguin.com>'
+    AUTHOR        => 'Fred Moyer <fred@redhotpenguin.com>',
+    META_MERGE    => {
+        resources => {
+            repository  =>  'https://github.com/redhotpenguin/perl-IO-SessionData',
+        },
+    },
 );
