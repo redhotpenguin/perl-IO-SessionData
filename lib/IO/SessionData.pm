@@ -116,7 +116,7 @@ sub write {
         # added length() to make it work on Mac. Thanks to Robin Fuller <rfuller@broadjump.com>
         $rc = syswrite($handle,$self->{outbuffer},length($self->{outbuffer}));
 
-        # able to write, so truncate out buffer apropriately
+        # able to write, so truncate out buffer appropriately
         if ($rc) {
             substr($self->{outbuffer},0,$rc) = '';
         }
